@@ -3,6 +3,19 @@ server:
   port: 50051
   max_workers: 10
 
+# 任务处理器配置
+task_processor:
+  max_concurrent_tasks: 10
+  max_memory_percent: 80.0
+  max_cpu_percent: 80.0
+  retry:
+    max_retries: 3
+    retry_delay: 5  # 重试间隔(秒)
+  priority:
+    high_timeout: 30  # 高优先级任务超时时间(秒)
+    medium_timeout: 60
+    low_timeout: 120
+
 # 限流配置
 rate_limit:
   default:  # 默认限流规则
