@@ -1,0 +1,35 @@
+syntax = "proto3";
+
+package ai_engine;
+
+option java_multiple_files = true;
+option java_package = "com.xxx.ai.engine.grpc";
+
+// 技能服务
+service SkillService {
+    // 列出所有可用的技能
+    rpc ListSkills (ListSkillsRequest) returns (ListSkillsResponse);
+}
+
+// 列出技能请求
+message ListSkillsRequest {
+    // 可选的过滤条件
+    optional string type = 1;  // 技能类型
+    optional bool enabled = 2; // 是否启用
+}
+
+// 技能信息
+message SkillInfo {
+    string id = 1;           // 技能ID
+    string name = 2;         // 技能名称
+    string type = 3;         // 技能类型
+    string description = 4;  // 技能描述
+    string model_name = 5;   // 使用的模型名称
+    bool enabled = 6;        // 是否启用
+    map<string, string> parameters = 7;  // 技能参数
+}
+
+// 列出技能响应
+message ListSkillsResponse {
+    repeated SkillInfo skills = 1;  // 技能列表
+} 

@@ -1,0 +1,352 @@
+2025-02-26 16:30:04 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:30:04 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:30:04 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'function' object has no attribute 'request_streaming'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:30:04.5319866+00:00", grpc_status:2, grpc_message:"Unexpected <class \'AttributeError\'>: \'function\' object has no attribute \'request_streaming\'"}"
+>
+2025-02-26 16:30:04 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'function' object has no attribute 'request_streaming'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:30:04.5319866+00:00", grpc_status:2, grpc_message:"Unexpected <class \'AttributeError\'>: \'function\' object has no attribute \'request_streaming\'"}"
+>
+2025-02-26 16:30:04 - __main__ - INFO - Connection closed
+2025-02-26 16:32:31 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:32:31 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:32:31 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'function' object has no attribute 'request_streaming'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:32:31.1790946+00:00", grpc_status:2, grpc_message:"Unexpected <class \'AttributeError\'>: \'function\' object has no attribute \'request_streaming\'"}"
+>
+2025-02-26 16:32:31 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'function' object has no attribute 'request_streaming'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:32:31.1790946+00:00", grpc_status:2, grpc_message:"Unexpected <class \'AttributeError\'>: \'function\' object has no attribute \'request_streaming\'"}"
+>
+2025-02-26 16:32:31 - __main__ - INFO - Connection closed
+2025-02-26 16:35:54 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:35:54 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:35:54 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNIMPLEMENTED
+	details = "Method not found!"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:35:54.3340292+00:00", grpc_status:12, grpc_message:"Method not found!"}"
+>
+2025-02-26 16:35:54 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNIMPLEMENTED
+	details = "Method not found!"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:35:54.3340292+00:00", grpc_status:12, grpc_message:"Method not found!"}"
+>
+2025-02-26 16:35:54 - __main__ - INFO - Connection closed
+2025-02-26 16:38:53 - __main__ - ERROR - Failed to connect to server: SkillServiceServicer() takes no arguments
+2025-02-26 16:38:53 - __main__ - ERROR - Test failed: SkillServiceServicer() takes no arguments
+2025-02-26 16:39:29 - __main__ - ERROR - Failed to connect to server: SkillServiceServicer() takes no arguments
+2025-02-26 16:39:29 - __main__ - ERROR - Test failed: SkillServiceServicer() takes no arguments
+2025-02-26 16:40:22 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:40:22 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:40:22 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNIMPLEMENTED
+	details = "Method not found!"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:40:22.5935894+00:00", grpc_status:12, grpc_message:"Method not found!"}"
+>
+2025-02-26 16:40:22 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNIMPLEMENTED
+	details = "Method not found!"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:40:22.5935894+00:00", grpc_status:12, grpc_message:"Method not found!"}"
+>
+2025-02-26 16:40:22 - __main__ - INFO - Connection closed
+2025-02-26 16:41:44 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:41:44 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:41:44 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"\'tuple\' object has no attribute \'get\'", grpc_status:16, created_time:"2025-02-26T08:41:44.8709595+00:00"}"
+>
+2025-02-26 16:41:44 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"\'tuple\' object has no attribute \'get\'", grpc_status:16, created_time:"2025-02-26T08:41:44.8709595+00:00"}"
+>
+2025-02-26 16:41:44 - __main__ - INFO - Connection closed
+2025-02-26 16:42:48 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:42:48 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:42:48 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"\'tuple\' object has no attribute \'get\'", grpc_status:16, created_time:"2025-02-26T08:42:48.8863625+00:00"}"
+>
+2025-02-26 16:42:48 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"\'tuple\' object has no attribute \'get\'", grpc_status:16, created_time:"2025-02-26T08:42:48.8863625+00:00"}"
+>
+2025-02-26 16:42:48 - __main__ - INFO - Connection closed
+2025-02-26 16:44:27 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:44:27 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:44:27 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:44:27.0363193+00:00", grpc_status:16, grpc_message:"\'tuple\' object has no attribute \'get\'"}"
+>
+2025-02-26 16:44:27 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:44:27.0363193+00:00", grpc_status:16, grpc_message:"\'tuple\' object has no attribute \'get\'"}"
+>
+2025-02-26 16:44:27 - __main__ - INFO - Connection closed
+2025-02-26 16:47:07 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:47:07 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:47:07 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:47:07 - __main__ - INFO - Connection closed
+2025-02-26 16:47:24 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:47:24 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:47:24 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:47:24 - __main__ - INFO - Connection closed
+2025-02-26 16:51:30 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:51:30 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:51:30 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:51:30.8069259+00:00", grpc_status:2, grpc_message:"Unexpected <class \'AttributeError\'>: \'tuple\' object has no attribute \'get\'"}"
+>
+2025-02-26 16:51:30 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:51:30.8069259+00:00", grpc_status:2, grpc_message:"Unexpected <class \'AttributeError\'>: \'tuple\' object has no attribute \'get\'"}"
+>
+2025-02-26 16:51:30 - __main__ - INFO - Connection closed
+2025-02-26 16:51:51 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:51:51 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:51:51 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Unexpected <class \'AttributeError\'>: \'tuple\' object has no attribute \'get\'", grpc_status:2, created_time:"2025-02-26T08:51:51.2123329+00:00"}"
+>
+2025-02-26 16:51:51 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'AttributeError'>: 'tuple' object has no attribute 'get'"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Unexpected <class \'AttributeError\'>: \'tuple\' object has no attribute \'get\'", grpc_status:2, created_time:"2025-02-26T08:51:51.2123329+00:00"}"
+>
+2025-02-26 16:51:51 - __main__ - INFO - Connection closed
+2025-02-26 16:52:45 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:52:45 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:52:52 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "IOCP/Socket: Connection reset (An existing connection was forcibly closed by the remote host.
+ -- 10054)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:52:52.9404689+00:00", grpc_status:14, grpc_message:"IOCP/Socket: Connection reset (An existing connection was forcibly closed by the remote host.\r\n -- 10054)"}"
+>
+2025-02-26 16:52:52 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "IOCP/Socket: Connection reset (An existing connection was forcibly closed by the remote host.
+ -- 10054)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:52:52.9404689+00:00", grpc_status:14, grpc_message:"IOCP/Socket: Connection reset (An existing connection was forcibly closed by the remote host.\r\n -- 10054)"}"
+>
+2025-02-26 16:52:52 - __main__ - INFO - Connection closed
+2025-02-26 16:53:04 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:53:04 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:53:04 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:53:04 - __main__ - INFO - Connection closed
+2025-02-26 16:53:31 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:53:31 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:53:31 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:53:31 - __main__ - INFO - Connection closed
+2025-02-26 16:53:33 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:53:33 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:53:36 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:50051: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:53:36.131672+00:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:50051: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"}"
+>
+2025-02-26 16:53:36 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAVAILABLE
+	details = "failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:50051: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.
+ -- 10061)"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T08:53:36.131672+00:00", grpc_status:14, grpc_message:"failed to connect to all addresses; last error: UNAVAILABLE: ipv6:%5B::1%5D:50051: ConnectEx: Connection refused (No connection could be made because the target machine actively refused it.\r\n -- 10061)"}"
+>
+2025-02-26 16:53:36 - __main__ - INFO - Connection closed
+2025-02-26 16:53:47 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:53:47 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:53:47 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:53:47 - __main__ - INFO - Connection closed
+2025-02-26 16:53:58 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:53:58 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:53:58 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:53:58 - __main__ - INFO - Connection closed
+2025-02-26 16:54:00 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:54:00 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:54:00 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:54:00 - __main__ - INFO - Connection closed
+2025-02-26 16:56:02 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:56:02 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:56:02 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:56:02 - __main__ - INFO - Connection closed
+2025-02-26 16:56:06 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:56:06 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:56:06 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:56:06 - __main__ - INFO - Connection closed
+2025-02-26 16:56:08 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:56:08 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:56:08 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:56:08 - __main__ - INFO - Connection closed
+2025-02-26 16:58:52 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 16:58:52 - __main__ - INFO - Testing: List all skills
+2025-02-26 16:58:52 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 16:58:52 - __main__ - INFO - Connection closed
+2025-02-26 17:07:13 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:07:13 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:07:13 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 17:07:13 - __main__ - INFO - Connection closed
+2025-02-26 17:07:15 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:07:15 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:07:15 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 17:07:15 - __main__ - INFO - Connection closed
+2025-02-26 17:07:30 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:07:30 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:07:30 - __main__ - ERROR - Test failed: Failed grpc_call_start_batch: 10 with grpc_call_error value: 'GRPC_CALL_ERROR_INVALID_METADATA'
+2025-02-26 17:07:30 - __main__ - INFO - Connection closed
+2025-02-26 17:07:36 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:07:36 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:07:36 - __main__ - ERROR - Test failed: Failed grpc_call_start_batch: 10 with grpc_call_error value: 'GRPC_CALL_ERROR_INVALID_METADATA'
+2025-02-26 17:07:36 - __main__ - INFO - Connection closed
+2025-02-26 17:07:46 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:07:46 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:07:46 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Missing or invalid authorization header"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:07:46.2482812+00:00", grpc_status:16, grpc_message:"Missing or invalid authorization header"}"
+>
+2025-02-26 17:07:46 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Missing or invalid authorization header"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:07:46.2482812+00:00", grpc_status:16, grpc_message:"Missing or invalid authorization header"}"
+>
+2025-02-26 17:07:46 - __main__ - INFO - Connection closed
+2025-02-26 17:08:53 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:08:53 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:08:53 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Missing or invalid authorization header"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Missing or invalid authorization header", grpc_status:16, created_time:"2025-02-26T09:08:53.7982722+00:00"}"
+>
+2025-02-26 17:08:53 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Missing or invalid authorization header"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Missing or invalid authorization header", grpc_status:16, created_time:"2025-02-26T09:08:53.7982722+00:00"}"
+>
+2025-02-26 17:08:53 - __main__ - INFO - Connection closed
+2025-02-26 17:09:05 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:09:05 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:09:05 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 17:09:05 - __main__ - INFO - Connection closed
+2025-02-26 17:18:50 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:18:50 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:18:50 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: 'func'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:18:50.731617+00:00", grpc_status:2, grpc_message:"Unexpected <class \'TypeError\'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: \'func\'"}"
+>
+2025-02-26 17:18:50 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: 'func'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:18:50.731617+00:00", grpc_status:2, grpc_message:"Unexpected <class \'TypeError\'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: \'func\'"}"
+>
+2025-02-26 17:18:50 - __main__ - INFO - Connection closed
+2025-02-26 17:19:18 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:19:18 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:19:18 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 17:19:18 - __main__ - INFO - Connection closed
+2025-02-26 17:19:44 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:19:44 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:19:44 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: object NoneType can't be used in 'await' expression"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Unexpected <class \'TypeError\'>: object NoneType can\'t be used in \'await\' expression", grpc_status:2, created_time:"2025-02-26T09:19:44.2424999+00:00"}"
+>
+2025-02-26 17:19:44 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: object NoneType can't be used in 'await' expression"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Unexpected <class \'TypeError\'>: object NoneType can\'t be used in \'await\' expression", grpc_status:2, created_time:"2025-02-26T09:19:44.2424999+00:00"}"
+>
+2025-02-26 17:19:44 - __main__ - INFO - Connection closed
+2025-02-26 17:46:07 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:46:07 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:46:07 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: 'func'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:46:07.0737699+00:00", grpc_status:2, grpc_message:"Unexpected <class \'TypeError\'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: \'func\'"}"
+>
+2025-02-26 17:46:07 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: 'func'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:46:07.0737699+00:00", grpc_status:2, grpc_message:"Unexpected <class \'TypeError\'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: \'func\'"}"
+>
+2025-02-26 17:46:07 - __main__ - INFO - Connection closed
+2025-02-26 17:58:37 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 17:58:37 - __main__ - INFO - Testing: List all skills
+2025-02-26 17:58:37 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: 'func'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:58:37.1160201+00:00", grpc_status:2, grpc_message:"Unexpected <class \'TypeError\'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: \'func\'"}"
+>
+2025-02-26 17:58:37 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNKNOWN
+	details = "Unexpected <class 'TypeError'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: 'func'"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T09:58:37.1160201+00:00", grpc_status:2, grpc_message:"Unexpected <class \'TypeError\'>: MetricsCollector.count_error.<locals>.decorator() missing 1 required positional argument: \'func\'"}"
+>
+2025-02-26 17:58:37 - __main__ - INFO - Connection closed
+2025-02-26 18:06:30 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 18:06:30 - __main__ - INFO - Testing: List all skills
+2025-02-26 18:06:30 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 18:06:30 - __main__ - INFO - Connection closed
+2025-02-26 18:07:00 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 18:07:00 - __main__ - INFO - Testing: List all skills
+2025-02-26 18:07:00 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 18:07:00 - __main__ - INFO - Connection closed
+2025-02-26 18:07:37 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 18:07:37 - __main__ - INFO - Testing: List all skills
+2025-02-26 18:07:37 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Missing or invalid authorization header"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T10:07:37.8686632+00:00", grpc_status:16, grpc_message:"Missing or invalid authorization header"}"
+>
+2025-02-26 18:07:37 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Missing or invalid authorization header"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T10:07:37.8686632+00:00", grpc_status:16, grpc_message:"Missing or invalid authorization header"}"
+>
+2025-02-26 18:07:37 - __main__ - INFO - Connection closed
+2025-02-26 18:10:26 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 18:10:26 - __main__ - INFO - Testing: List all skills
+2025-02-26 18:10:26 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 18:10:26 - __main__ - INFO - Connection closed
+2025-02-26 18:10:38 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 18:10:38 - __main__ - INFO - Testing: List all skills
+2025-02-26 18:10:38 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Invalid token"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T10:10:38.4736205+00:00", grpc_status:16, grpc_message:"Invalid token"}"
+>
+2025-02-26 18:10:38 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Invalid token"
+	debug_error_string = "UNKNOWN:Error received from peer  {created_time:"2025-02-26T10:10:38.4736205+00:00", grpc_status:16, grpc_message:"Invalid token"}"
+>
+2025-02-26 18:10:38 - __main__ - INFO - Connection closed
+2025-02-26 18:10:46 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 18:10:46 - __main__ - INFO - Testing: List all skills
+2025-02-26 18:10:46 - __main__ - ERROR - RPC failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Invalid client ID"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Invalid client ID", grpc_status:16, created_time:"2025-02-26T10:10:46.6701917+00:00"}"
+>
+2025-02-26 18:10:46 - __main__ - ERROR - Test failed: <AioRpcError of RPC that terminated with:
+	status = StatusCode.UNAUTHENTICATED
+	details = "Invalid client ID"
+	debug_error_string = "UNKNOWN:Error received from peer  {grpc_message:"Invalid client ID", grpc_status:16, created_time:"2025-02-26T10:10:46.6701917+00:00"}"
+>
+2025-02-26 18:10:46 - __main__ - INFO - Connection closed
+2025-02-26 19:01:12 - __main__ - INFO - Connected to server at localhost:50051
+2025-02-26 19:01:12 - __main__ - INFO - Testing: List all skills
+2025-02-26 19:01:12 - __main__ - INFO - All skills: [{'id': 'helmet_detection', 'name': '安全帽检测', 'type': 'SAFETY', 'description': '检测工人是否正确佩戴安全帽', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5', 'iou_threshold': '0.45', 'max_det': '100'}}, {'id': 'ppe_detection', 'name': '劳保用品检测', 'type': 'SAFETY', 'description': '检测工人是否正确穿戴劳保用品', 'model_name': 'helmet_detection', 'enabled': True, 'parameters': {'confidence_threshold': '0.5'}}]
+2025-02-26 19:01:12 - __main__ - INFO - Connection closed

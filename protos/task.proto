@@ -1,0 +1,103 @@
+syntax = "proto3";
+
+package ai.engine.task;
+
+// 任务服务定义
+service TaskService {
+    // 启动一个新的视频分析任务
+    rpc StartTask(StartTaskRequest) returns (TaskResponse);
+    // 停止一个正在运行的任务
+    rpc StopTask(StopTaskRequest) returns (TaskResponse);
+    // 查询任务状态
+    rpc GetTaskStatus(TaskStatusRequest) returns (TaskStatus);
+}
+
+// 启动任务请求
+message StartTaskRequest {
+    // 视频流地址
+    string video_stream = 1;
+    // 技能ID
+    string skill_name = 2;
+    // 告警级别
+    int32 alert_level = 3;
+    // 检测帧率
+    float frame_rate = 4;
+    // 检测区域 [x1, y1, x2, y2]
+    repeated float roi = 5;
+    // 检测时长（秒），0表示持续检测
+    int32 duration = 6;
+    // 任务标签，用于分类
+    map<string, string> labels = 7;
+    // 任务配置参数
+    map<string, string> parameters = 8;
+}
+
+// 停止任务请求
+message StopTaskRequest {
+    // 任务ID
+    string task_id = 1;
+}
+
+// 任务响应
+message TaskResponse {
+    // 任务ID
+    string task_id = 1;
+    // 状态：started/stopped/error
+    string status = 2;
+    // 响应消息
+    string message = 3;
+    // 错误码，0表示成功
+    int32 error_code = 4;
+}
+
+// 任务状态查询请求
+message TaskStatusRequest {
+    // 任务ID
+    string task_id = 1;
+}
+
+// 任务状态
+message TaskStatus {
+    // 任务ID
+    string task_id = 1;
+    // 运行状态：running/completed/error/stopped
+    string status = 2;
+    // 开始时间（Unix时间戳）
+    double start_time = 3;
+    // 运行时长（秒）
+    double duration = 4;
+    // 错误信息
+    string error = 5;
+    // 进度（0-100）
+    int32 progress = 6;
+    // 资源使用状况
+    ResourceUsage resource_usage = 7;
+    // 任务配置信息
+    TaskConfig config = 8;
+}
+
+// 资源使用状况
+message ResourceUsage {
+    // CPU使用率（百分比）
+    float cpu_usage = 1;
+    // 内存使用（MB）
+    float memory_usage = 2;
+    // GPU使用率（百分比）
+    float gpu_usage = 3;
+    // GPU内存使用（MB）
+    float gpu_memory_usage = 4;
+}
+
+// 任务配置信息
+message TaskConfig {
+    // 视频流地址
+    string video_stream = 1;
+    // 技能名称
+    string skill_name = 2;
+    // 告警级别
+    int32 alert_level = 3;
+    // 检测帧率
+    float frame_rate = 4;
+    // 检测区域
+    repeated float roi = 5;
+}

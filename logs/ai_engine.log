@@ -1,0 +1,3 @@
+2025-02-26 21:18:59 - src.utils.metrics - INFO - Metrics server started on port 8000
+2025-02-26 21:19:08 - src.utils.metrics - INFO - Metrics server started on port 8000
+2025-02-26 21:19:08 - src.grpc.server - INFO - Starting server on 0.0.0.0:50051

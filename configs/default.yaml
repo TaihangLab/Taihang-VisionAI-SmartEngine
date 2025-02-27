@@ -1,0 +1,115 @@
+server:
+  host: "0.0.0.0"
+  port: 50051
+  max_workers: 10
+
+# 限流配置
+rate_limit:
+  default:  # 默认限流规则
+    requests: 100    # 请求数
+    period: 60      # 时间周期(秒)
+  methods:          # 针对特定方法的限流规则
+    "/ai_engine.SkillService/ListSkills":
+      requests: 50
+      period: 60
+
+# 技能配置
+skills:
+  helmet_detection:
+    type: helmet_detection
+    enabled: true
+    models:
+      - model_id: helmet_v1  # 引用共享模型
+          
+  ppe_detection:
+    type: ppe_detection
+    enabled: true
+    models:
+      - model_id: helmet_v1  # 引用相同的安全帽模型
+      - model_id: vest_v1
+      - model_id: gloves_v1
+
+torchserve:
+  url: "http://localhost:8080"
+  management_url: "http://localhost:8081"
+  metrics_url: "http://localhost:8082"
+
+models:
+  default_batch_size: 16
+  default_min_workers: 1
+  default_max_workers: 4
+  model_store: "/opt/ml/model"
+  helmet:  # 共享的安全帽检测模型
+    model_id: helmet_v1
+    name: helmet_detector
+    type: detection
+    mar_path: models/helmet_detector.mar
+    parameters:
+      confidence_threshold: 0.5
+      iou_threshold: 0.45
+      
+  vest:
+    model_id: vest_v1
+    name: vest_detector
+    type: detection
+    mar_path: models/vest_detector.mar
+    parameters:
+      confidence_threshold: 0.5
+      
+  gloves:
+    model_id: gloves_v1
+    name: gloves_detector
+    type: detection
+    mar_path: models/gloves_detector.mar
+    parameters:
+      confidence_threshold: 0.5
+
+rocketmq:
+  name_server: "localhost:9876"
+  group_id: "ai_engine_group"
+  topics:
+    task: "AI_TASK_TOPIC"
+    result: "AI_RESULT_TOPIC"
+
+logging:
+  level: "INFO"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  file: "logs/ai_engine.log"
+
+storage:
+  minio:
+    endpoint: "localhost:9000"
+    access_key: "minioadmin"
+    secret_key: "minioadmin"
+    secure: false  # 是否使用HTTPS
+    video_bucket: "ai-engine-videos"
+    image_bucket: "ai-engine-images"
+
+# 认证配置
+auth:
+  tokens:
+    "eyJhbGciOiJIUzI1NiJ9":  # 测试用令牌 (这里简化了，实际应该使用更安全的令牌)
+      client_id: "vision_ai_client_001"
+      permissions: 
+        - "ListSkills"
+        - "ExecuteSkill"
+    "test_token_dev":  # 开发测试用令牌
+      client_id: "vision_ai_client_dev"
+      permissions: 
+        - "ListSkills"
+        - "ExecuteSkill"
+        
+  clients:
+    vision_ai_client_001:  # 生产环境客户端
+      name: "智慧视觉AI客户端-001"
+      description: "用于生产环境的视觉AI客户端"
+      rate_limit:
+        requests: 100
+        period: 60
+        
+    vision_ai_client_dev:  # 开发测试客户端
+      name: "智慧视觉AI客户端-开发"
+      description: "用于开发和测试的视觉AI客户端"
+      rate_limit:
+        requests: 1000
+        period: 60 
