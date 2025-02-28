@@ -6,6 +6,9 @@ server:
 # 任务处理器配置
 task_processor:
   max_concurrent_tasks: 10
+  cpu_threshold: 80.0
+  memory_threshold: 80.0
+  gpu_threshold: 80.0
   max_memory_percent: 80.0
   max_cpu_percent: 80.0
   retry:
