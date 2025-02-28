@@ -4,10 +4,10 @@ import threading
 from functools import partial
 
 import grpc
-import inference_pb2
-import inference_pb2_grpc
-import management_pb2
-import management_pb2_grpc
+from . import inference_pb2
+from . import inference_pb2_grpc
+from . import management_pb2
+from . import management_pb2_grpc
 
 
 def get_inference_stub():
